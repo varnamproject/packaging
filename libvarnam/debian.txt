@@ -1,3 +1,9 @@
+Just run
+
+./package_debian.sh 3.1.1 to package the 3.1.1 version. It looks at the /tmp/libvarnam-3.1.1.tar.gz file. If not found, it will download from savannah. 
+
+Script does the following steps.
+
 * Download the tar file
 * rename the tar file - mv libvarnam-3.1.1.tar.gz libvarnam_3.1.1.orig.tar.gz
 * extract the tar file
