@@ -1,0 +1,16 @@
+Source: libvarnam
+Section: text
+Priority: extra
+Maintainer: Navaneeth K N <nkn@riseup.net>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.4
+Homepage: http://www.varnamproject.com
+Vcs-Git: git://gitorious.org/varnamproject/libvarnam.git
+Vcs-Browser: https://gitorious.org/varnamproject/libvarnam/
+
+Package: libvarnam
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: ruby (>= 1.9.0)
+Description: Varnam is a cross platform predictive transliterator for Indian languages
+ libvarnam provides a shared library which can be used to do transliteration and reverse transliteration for Indian languages

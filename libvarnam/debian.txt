@@ -1,0 +1,7 @@
+* Download the tar file
+* rename the tar file - mv libvarnam-3.1.1.tar.gz libvarnam_3.1.1.orig.tar.gz
+* extract the tar file
+* edit the changelog
+* copy debian/* to extracted directory. cp -rf debian extracted_dir
+* dpkg-buildpackage -us -uc
+* run lintian
