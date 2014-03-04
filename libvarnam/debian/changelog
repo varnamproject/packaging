@@ -1,5 +1,10 @@
-libvarnam (3.1.1-1) stable; urgency=low
+libvarnam (3.1.2-1) stable; urgency=low
 
-  * Initial release
+  * Fixed a bug which was causing transliteration to fail while learn was
+    happening
+  * Fixed out of source build
+  * Fixed varnamc export
+  * Using 30000 as export size
+  * Installing varnamruby.rb to the correct location (prefix/lib)
 
- -- navaneeth <varnamproject-discuss@nongnu.org>  Sun, 02 Mar 2014 10:51:34 +0530
+ -- Navaneeth K N <varnamproject-discuss@nongnu.org>  Tue, 04 Mar 2014 10:51:34 +0530
