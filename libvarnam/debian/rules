@@ -10,6 +10,11 @@
 #export DH_VERBOSE=1
 DESTDIR=$(CURDIR)/debian/tmp
 export DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+export VARNAM_LIB_ARCH=$(DEB_HOST_MULTIARCH)
 
 %:
+	for file in libvarnam.install libvarnam-dev.install; do \
+		sed -e"s,\$${DEB_HOST_MULTIARCH},${DEB_HOST_MULTIARCH},g" \
+			debian/$${file}.in > debian/$$file; \
+	done
 	dh $@

@@ -1,0 +1,6 @@
+usr/include/libvarnam/*.h
+usr/include/libvarnam/deps/*.h
+usr/lib/${DEB_HOST_MULTIARCH}/libvarnamstatic.a
+usr/lib/${DEB_HOST_MULTIARCH}/libvarnam.so*
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/*.pc
+

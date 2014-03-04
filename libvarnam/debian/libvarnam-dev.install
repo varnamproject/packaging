@@ -1,5 +1,0 @@
-usr/include/libvarnam/*.h
-usr/include/libvarnam/deps/*.h
-usr/lib/libvarnamstatic.a
-usr/lib/pkgconfig/*.pc
-
