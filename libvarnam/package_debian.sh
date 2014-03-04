@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 version=$@
 started_directory=`pwd`
 
@@ -7,10 +9,10 @@ started_directory=`pwd`
 # this allows local testing easy. just put the file to package in /tmp
 source_tarball=/tmp/libvarnam-$version.tar.gz
 if [ -f $source_tarball ]
-then	
+then
 	echo "Using $source_tarball"
 else
-	wget --directory-prefix /tmp http://download.savannah.gnu.org/releases/varnamproject/libvarnam/source/libvarnam-$version.tar.gz		
+	wget --directory-prefix /tmp http://download.savannah.gnu.org/releases/varnamproject/libvarnam/source/libvarnam-$version.tar.gz
 fi
 
 working_dir=`mktemp -d`

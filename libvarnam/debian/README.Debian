@@ -1,0 +1,10 @@
+Varnam for Debian
+-----------------
+
+Varnam 3 for Debian is split up in four packages:
+
+libvarnam3-dev: 	Development files (headers, static library)
+libvarnam3: 		The database engine library itself
+varnamc:	 		A command line tool to libvarnam
+
+ -- Navaneeth K N <nkn@riseup.net>, Tue Mar  4 07:34:00 2014
