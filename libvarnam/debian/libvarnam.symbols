@@ -1,355 +1,355 @@
 libvarnam.so.3 libvarnam #MINVER#
- Token@Base
- Word@Base
- ZWJ@Base
- ZWNJ@Base
- asprintf@Base
- destroy_all_statements@Base
- destroy_token@Base
- destroy_word@Base
- ensure_schema_exists@Base
- get_pooled_array@Base
- get_pooled_string@Base
- get_pooled_token@Base
- get_pooled_word@Base
- get_stat@Base
- is_directory@Base
- is_path_exists@Base
- is_special_character@Base
- is_utf8@Base
- lru_add_to_cache@Base
- lru_find_in_cache@Base
- lru_key_exists@Base
- ml_unicode_renderer@Base
- ml_unicode_rtl_renderer@Base
- portable_snprintf@Base
- portable_vsnprintf@Base
- print_tokens_array@Base
- product_tokens@Base
- reset_pool@Base
- resolve_rtl_tokens@Base
- resolve_tokens@Base
- return_array_to_pool@Base
- return_string_to_pool@Base
- set_last_error@Base
- sqlite3_aggregate_context@Base
- sqlite3_aggregate_count@Base
- sqlite3_auto_extension@Base
- sqlite3_backup_finish@Base
- sqlite3_backup_init@Base
- sqlite3_backup_pagecount@Base
- sqlite3_backup_remaining@Base
- sqlite3_backup_step@Base
- sqlite3_bind_blob@Base
- sqlite3_bind_double@Base
- sqlite3_bind_int64@Base
- sqlite3_bind_int@Base
- sqlite3_bind_null@Base
- sqlite3_bind_parameter_count@Base
- sqlite3_bind_parameter_index@Base
- sqlite3_bind_parameter_name@Base
- sqlite3_bind_text16@Base
- sqlite3_bind_text@Base
- sqlite3_bind_value@Base
- sqlite3_bind_zeroblob@Base
- sqlite3_blob_bytes@Base
- sqlite3_blob_close@Base
- sqlite3_blob_open@Base
- sqlite3_blob_read@Base
- sqlite3_blob_reopen@Base
- sqlite3_blob_write@Base
- sqlite3_busy_handler@Base
- sqlite3_busy_timeout@Base
- sqlite3_cancel_auto_extension@Base
- sqlite3_changes@Base
- sqlite3_clear_bindings@Base
- sqlite3_close@Base
- sqlite3_close_v2@Base
- sqlite3_collation_needed16@Base
- sqlite3_collation_needed@Base
- sqlite3_column_blob@Base
- sqlite3_column_bytes16@Base
- sqlite3_column_bytes@Base
- sqlite3_column_count@Base
- sqlite3_column_decltype16@Base
- sqlite3_column_decltype@Base
- sqlite3_column_double@Base
- sqlite3_column_int64@Base
- sqlite3_column_int@Base
- sqlite3_column_name16@Base
- sqlite3_column_name@Base
- sqlite3_column_text16@Base
- sqlite3_column_text@Base
- sqlite3_column_type@Base
- sqlite3_column_value@Base
- sqlite3_commit_hook@Base
- sqlite3_compileoption_get@Base
- sqlite3_compileoption_used@Base
- sqlite3_complete16@Base
- sqlite3_complete@Base
- sqlite3_config@Base
- sqlite3_context_db_handle@Base
- sqlite3_create_collation16@Base
- sqlite3_create_collation@Base
- sqlite3_create_collation_v2@Base
- sqlite3_create_function16@Base
- sqlite3_create_function@Base
- sqlite3_create_function_v2@Base
- sqlite3_create_module@Base
- sqlite3_create_module_v2@Base
- sqlite3_data_count@Base
- sqlite3_data_directory@Base
- sqlite3_db_config@Base
- sqlite3_db_filename@Base
- sqlite3_db_handle@Base
- sqlite3_db_mutex@Base
- sqlite3_db_readonly@Base
- sqlite3_db_release_memory@Base
- sqlite3_db_status@Base
- sqlite3_declare_vtab@Base
- sqlite3_enable_load_extension@Base
- sqlite3_enable_shared_cache@Base
- sqlite3_errcode@Base
- sqlite3_errmsg16@Base
- sqlite3_errmsg@Base
- sqlite3_errstr@Base
- sqlite3_exec@Base
- sqlite3_expired@Base
- sqlite3_extended_errcode@Base
- sqlite3_extended_result_codes@Base
- sqlite3_file_control@Base
- sqlite3_finalize@Base
- sqlite3_free@Base
- sqlite3_free_table@Base
- sqlite3_get_autocommit@Base
- sqlite3_get_auxdata@Base
- sqlite3_get_table@Base
- sqlite3_global_recover@Base
- sqlite3_initialize@Base
- sqlite3_interrupt@Base
- sqlite3_last_insert_rowid@Base
- sqlite3_libversion@Base
- sqlite3_libversion_number@Base
- sqlite3_limit@Base
- sqlite3_load_extension@Base
- sqlite3_log@Base
- sqlite3_malloc@Base
- sqlite3_memory_alarm@Base
- sqlite3_memory_highwater@Base
- sqlite3_memory_used@Base
- sqlite3_mprintf@Base
- sqlite3_mutex_alloc@Base
- sqlite3_mutex_enter@Base
- sqlite3_mutex_free@Base
- sqlite3_mutex_leave@Base
- sqlite3_mutex_try@Base
- sqlite3_next_stmt@Base
- sqlite3_open16@Base
- sqlite3_open@Base
- sqlite3_open_v2@Base
- sqlite3_os_end@Base
- sqlite3_os_init@Base
- sqlite3_overload_function@Base
- sqlite3_prepare16@Base
- sqlite3_prepare16_v2@Base
- sqlite3_prepare@Base
- sqlite3_prepare_v2@Base
- sqlite3_profile@Base
- sqlite3_progress_handler@Base
- sqlite3_randomness@Base
- sqlite3_realloc@Base
- sqlite3_release_memory@Base
- sqlite3_reset@Base
- sqlite3_reset_auto_extension@Base
- sqlite3_result_blob@Base
- sqlite3_result_double@Base
- sqlite3_result_error16@Base
- sqlite3_result_error@Base
- sqlite3_result_error_code@Base
- sqlite3_result_error_nomem@Base
- sqlite3_result_error_toobig@Base
- sqlite3_result_int64@Base
- sqlite3_result_int@Base
- sqlite3_result_null@Base
- sqlite3_result_text16@Base
- sqlite3_result_text16be@Base
- sqlite3_result_text16le@Base
- sqlite3_result_text@Base
- sqlite3_result_value@Base
- sqlite3_result_zeroblob@Base
- sqlite3_rollback_hook@Base
- sqlite3_set_authorizer@Base
- sqlite3_set_auxdata@Base
- sqlite3_shutdown@Base
- sqlite3_sleep@Base
- sqlite3_snprintf@Base
- sqlite3_soft_heap_limit64@Base
- sqlite3_soft_heap_limit@Base
- sqlite3_sourceid@Base
- sqlite3_sql@Base
- sqlite3_status@Base
- sqlite3_step@Base
- sqlite3_stmt_busy@Base
- sqlite3_stmt_readonly@Base
- sqlite3_stmt_status@Base
- sqlite3_strglob@Base
- sqlite3_stricmp@Base
- sqlite3_strnicmp@Base
- sqlite3_temp_directory@Base
- sqlite3_test_control@Base
- sqlite3_thread_cleanup@Base
- sqlite3_threadsafe@Base
- sqlite3_total_changes@Base
- sqlite3_trace@Base
- sqlite3_transfer_bindings@Base
- sqlite3_update_hook@Base
- sqlite3_uri_boolean@Base
- sqlite3_uri_int64@Base
- sqlite3_uri_parameter@Base
- sqlite3_user_data@Base
- sqlite3_value_blob@Base
- sqlite3_value_bytes16@Base
- sqlite3_value_bytes@Base
- sqlite3_value_double@Base
- sqlite3_value_int64@Base
- sqlite3_value_int@Base
- sqlite3_value_numeric_type@Base
- sqlite3_value_text16@Base
- sqlite3_value_text16be@Base
- sqlite3_value_text16le@Base
- sqlite3_value_text@Base
- sqlite3_value_type@Base
- sqlite3_version@Base
- sqlite3_vfs_find@Base
- sqlite3_vfs_register@Base
- sqlite3_vfs_unregister@Base
- sqlite3_vmprintf@Base
- sqlite3_vsnprintf@Base
- sqlite3_vtab_config@Base
- sqlite3_vtab_on_conflict@Base
- sqlite3_wal_autocheckpoint@Base
- sqlite3_wal_checkpoint@Base
- sqlite3_wal_checkpoint_v2@Base
- sqlite3_wal_hook@Base
- startswith@Base
- strbuf_add@Base
- strbuf_add_bytes@Base
- strbuf_addc@Base
- strbuf_addf@Base
- strbuf_addfln@Base
- strbuf_addln@Base
- strbuf_addvf@Base
- strbuf_clear@Base
- strbuf_destroy@Base
- strbuf_detach@Base
- strbuf_endswith@Base
- strbuf_init@Base
- strbuf_is_blank@Base
- strbuf_remove_from_first@Base
- strbuf_remove_from_last@Base
- strbuf_replace@Base
- strbuf_split@Base
- strbuf_to_s@Base
- substr@Base
- trie_add_child@Base
- trie_children_count@Base
- trie_create@Base
- trie_free@Base
- trie_iterate@Base
- trie_lookup@Base
- trimwhitespace@Base
- utf8_decode_at_byte@Base
- utf8_decode_at_character@Base
- utf8_decode_init@Base
- utf8_decode_next@Base
- utf8_ends_with@Base
- utf8_length@Base
- varnam_config@Base
- varnam_create_token@Base
- varnam_debug@Base
- varnam_delete_word@Base
- varnam_destroy@Base
- varnam_detect_lang@Base
- varnam_enable_logging@Base
- varnam_export_words@Base
- varnam_flush_buffer@Base
- varnam_get_all_tokens@Base
- varnam_get_info@Base
- varnam_get_last_error@Base
- varnam_get_scheme_author@Base
- varnam_get_scheme_compiled_date@Base
- varnam_get_scheme_display_name@Base
- varnam_get_scheme_file@Base
- varnam_get_scheme_identifier@Base
- varnam_get_scheme_language_code@Base
- varnam_get_suggestions_file@Base
- varnam_import_learnings_from_file@Base
- varnam_init@Base
- varnam_init_from_lang@Base
- varnam_is_known_word@Base
- varnam_learn@Base
- varnam_learn_from_file@Base
- varnam_log@Base
- varnam_register_renderer@Base
- varnam_reverse_transliterate@Base
- varnam_set_scheme_details@Base
- varnam_set_suggestions_dir@Base
- varnam_set_symbols_dir@Base
- varnam_suggestions_dir@Base
- varnam_symbols_dir@Base
- varnam_train@Base
- varnam_transliterate@Base
- varnam_version@Base
- varray_clear@Base
- varray_copy@Base
- varray_exists@Base
- varray_free@Base
- varray_get@Base
- varray_get_last_item@Base
- varray_init@Base
- varray_insert@Base
- varray_is_empty@Base
- varray_length@Base
- varray_pop_last_item@Base
- varray_push@Base
- varray_remove_at@Base
- vpool_add@Base
- vpool_free@Base
- vpool_get@Base
- vpool_init@Base
- vpool_reset@Base
- vpool_return@Base
- vst_add_metadata@Base
- vst_discard_changes@Base
- vst_flush_changes@Base
- vst_get_all_tokens@Base
- vst_get_metadata@Base
- vst_get_virama@Base
- vst_make_prefix_tree@Base
- vst_persist_token@Base
- vst_stamp_version@Base
- vst_start_buffering@Base
- vst_tokenize@Base
- vwt_compact_file@Base
- vwt_delete_word@Base
- vwt_discard_changes@Base
- vwt_end_changes@Base
- vwt_ensure_schema_exists@Base
- vwt_export_words@Base
- vwt_full_export@Base
- vwt_get_best_match@Base
- vwt_get_suggestions@Base
- vwt_get_word_id@Base
- vwt_import_patterns@Base
- vwt_import_words@Base
- vwt_optimize_for_huge_transaction@Base
- vwt_persist_pattern@Base
- vwt_persist_possibilities@Base
- vwt_start_changes@Base
- vwt_tokenize_pattern@Base
- vwt_turn_off_optimization_for_huge_transaction@Base
- word_equals@Base
- xfree@Base
- xmalloc@Base
- zwj@Base
- zwnj@Base
+ Token@Base 3.1.2
+ Word@Base 3.1.2
+ ZWJ@Base 3.1.2
+ ZWNJ@Base 3.1.2
+ asprintf@Base 3.1.2
+ destroy_all_statements@Base 3.1.2
+ destroy_token@Base 3.1.2
+ destroy_word@Base 3.1.2
+ ensure_schema_exists@Base 3.1.2
+ get_pooled_array@Base 3.1.2
+ get_pooled_string@Base 3.1.2
+ get_pooled_token@Base 3.1.2
+ get_pooled_word@Base 3.1.2
+ get_stat@Base 3.1.2
+ is_directory@Base 3.1.2
+ is_path_exists@Base 3.1.2
+ is_special_character@Base 3.1.2
+ is_utf8@Base 3.1.2
+ lru_add_to_cache@Base 3.1.2
+ lru_find_in_cache@Base 3.1.2
+ lru_key_exists@Base 3.1.2
+ ml_unicode_renderer@Base 3.1.2
+ ml_unicode_rtl_renderer@Base 3.1.2
+ portable_snprintf@Base 3.1.2
+ portable_vsnprintf@Base 3.1.2
+ print_tokens_array@Base 3.1.2
+ product_tokens@Base 3.1.2
+ reset_pool@Base 3.1.2
+ resolve_rtl_tokens@Base 3.1.2
+ resolve_tokens@Base 3.1.2
+ return_array_to_pool@Base 3.1.2
+ return_string_to_pool@Base 3.1.2
+ set_last_error@Base 3.1.2
+ sqlite3_aggregate_context@Base 3.1.2
+ sqlite3_aggregate_count@Base 3.1.2
+ sqlite3_auto_extension@Base 3.1.2
+ sqlite3_backup_finish@Base 3.1.2
+ sqlite3_backup_init@Base 3.1.2
+ sqlite3_backup_pagecount@Base 3.1.2
+ sqlite3_backup_remaining@Base 3.1.2
+ sqlite3_backup_step@Base 3.1.2
+ sqlite3_bind_blob@Base 3.1.2
+ sqlite3_bind_double@Base 3.1.2
+ sqlite3_bind_int64@Base 3.1.2
+ sqlite3_bind_int@Base 3.1.2
+ sqlite3_bind_null@Base 3.1.2
+ sqlite3_bind_parameter_count@Base 3.1.2
+ sqlite3_bind_parameter_index@Base 3.1.2
+ sqlite3_bind_parameter_name@Base 3.1.2
+ sqlite3_bind_text16@Base 3.1.2
+ sqlite3_bind_text@Base 3.1.2
+ sqlite3_bind_value@Base 3.1.2
+ sqlite3_bind_zeroblob@Base 3.1.2
+ sqlite3_blob_bytes@Base 3.1.2
+ sqlite3_blob_close@Base 3.1.2
+ sqlite3_blob_open@Base 3.1.2
+ sqlite3_blob_read@Base 3.1.2
+ sqlite3_blob_reopen@Base 3.1.2
+ sqlite3_blob_write@Base 3.1.2
+ sqlite3_busy_handler@Base 3.1.2
+ sqlite3_busy_timeout@Base 3.1.2
+ sqlite3_cancel_auto_extension@Base 3.1.2
+ sqlite3_changes@Base 3.1.2
+ sqlite3_clear_bindings@Base 3.1.2
+ sqlite3_close@Base 3.1.2
+ sqlite3_close_v2@Base 3.1.2
+ sqlite3_collation_needed16@Base 3.1.2
+ sqlite3_collation_needed@Base 3.1.2
+ sqlite3_column_blob@Base 3.1.2
+ sqlite3_column_bytes16@Base 3.1.2
+ sqlite3_column_bytes@Base 3.1.2
+ sqlite3_column_count@Base 3.1.2
+ sqlite3_column_decltype16@Base 3.1.2
+ sqlite3_column_decltype@Base 3.1.2
+ sqlite3_column_double@Base 3.1.2
+ sqlite3_column_int64@Base 3.1.2
+ sqlite3_column_int@Base 3.1.2
+ sqlite3_column_name16@Base 3.1.2
+ sqlite3_column_name@Base 3.1.2
+ sqlite3_column_text16@Base 3.1.2
+ sqlite3_column_text@Base 3.1.2
+ sqlite3_column_type@Base 3.1.2
+ sqlite3_column_value@Base 3.1.2
+ sqlite3_commit_hook@Base 3.1.2
+ sqlite3_compileoption_get@Base 3.1.2
+ sqlite3_compileoption_used@Base 3.1.2
+ sqlite3_complete16@Base 3.1.2
+ sqlite3_complete@Base 3.1.2
+ sqlite3_config@Base 3.1.2
+ sqlite3_context_db_handle@Base 3.1.2
+ sqlite3_create_collation16@Base 3.1.2
+ sqlite3_create_collation@Base 3.1.2
+ sqlite3_create_collation_v2@Base 3.1.2
+ sqlite3_create_function16@Base 3.1.2
+ sqlite3_create_function@Base 3.1.2
+ sqlite3_create_function_v2@Base 3.1.2
+ sqlite3_create_module@Base 3.1.2
+ sqlite3_create_module_v2@Base 3.1.2
+ sqlite3_data_count@Base 3.1.2
+ sqlite3_data_directory@Base 3.1.2
+ sqlite3_db_config@Base 3.1.2
+ sqlite3_db_filename@Base 3.1.2
+ sqlite3_db_handle@Base 3.1.2
+ sqlite3_db_mutex@Base 3.1.2
+ sqlite3_db_readonly@Base 3.1.2
+ sqlite3_db_release_memory@Base 3.1.2
+ sqlite3_db_status@Base 3.1.2
+ sqlite3_declare_vtab@Base 3.1.2
+ sqlite3_enable_load_extension@Base 3.1.2
+ sqlite3_enable_shared_cache@Base 3.1.2
+ sqlite3_errcode@Base 3.1.2
+ sqlite3_errmsg16@Base 3.1.2
+ sqlite3_errmsg@Base 3.1.2
+ sqlite3_errstr@Base 3.1.2
+ sqlite3_exec@Base 3.1.2
+ sqlite3_expired@Base 3.1.2
+ sqlite3_extended_errcode@Base 3.1.2
+ sqlite3_extended_result_codes@Base 3.1.2
+ sqlite3_file_control@Base 3.1.2
+ sqlite3_finalize@Base 3.1.2
+ sqlite3_free@Base 3.1.2
+ sqlite3_free_table@Base 3.1.2
+ sqlite3_get_autocommit@Base 3.1.2
+ sqlite3_get_auxdata@Base 3.1.2
+ sqlite3_get_table@Base 3.1.2
+ sqlite3_global_recover@Base 3.1.2
+ sqlite3_initialize@Base 3.1.2
+ sqlite3_interrupt@Base 3.1.2
+ sqlite3_last_insert_rowid@Base 3.1.2
+ sqlite3_libversion@Base 3.1.2
+ sqlite3_libversion_number@Base 3.1.2
+ sqlite3_limit@Base 3.1.2
+ sqlite3_load_extension@Base 3.1.2
+ sqlite3_log@Base 3.1.2
+ sqlite3_malloc@Base 3.1.2
+ sqlite3_memory_alarm@Base 3.1.2
+ sqlite3_memory_highwater@Base 3.1.2
+ sqlite3_memory_used@Base 3.1.2
+ sqlite3_mprintf@Base 3.1.2
+ sqlite3_mutex_alloc@Base 3.1.2
+ sqlite3_mutex_enter@Base 3.1.2
+ sqlite3_mutex_free@Base 3.1.2
+ sqlite3_mutex_leave@Base 3.1.2
+ sqlite3_mutex_try@Base 3.1.2
+ sqlite3_next_stmt@Base 3.1.2
+ sqlite3_open16@Base 3.1.2
+ sqlite3_open@Base 3.1.2
+ sqlite3_open_v2@Base 3.1.2
+ sqlite3_os_end@Base 3.1.2
+ sqlite3_os_init@Base 3.1.2
+ sqlite3_overload_function@Base 3.1.2
+ sqlite3_prepare16@Base 3.1.2
+ sqlite3_prepare16_v2@Base 3.1.2
+ sqlite3_prepare@Base 3.1.2
+ sqlite3_prepare_v2@Base 3.1.2
+ sqlite3_profile@Base 3.1.2
+ sqlite3_progress_handler@Base 3.1.2
+ sqlite3_randomness@Base 3.1.2
+ sqlite3_realloc@Base 3.1.2
+ sqlite3_release_memory@Base 3.1.2
+ sqlite3_reset@Base 3.1.2
+ sqlite3_reset_auto_extension@Base 3.1.2
+ sqlite3_result_blob@Base 3.1.2
+ sqlite3_result_double@Base 3.1.2
+ sqlite3_result_error16@Base 3.1.2
+ sqlite3_result_error@Base 3.1.2
+ sqlite3_result_error_code@Base 3.1.2
+ sqlite3_result_error_nomem@Base 3.1.2
+ sqlite3_result_error_toobig@Base 3.1.2
+ sqlite3_result_int64@Base 3.1.2
+ sqlite3_result_int@Base 3.1.2
+ sqlite3_result_null@Base 3.1.2
+ sqlite3_result_text16@Base 3.1.2
+ sqlite3_result_text16be@Base 3.1.2
+ sqlite3_result_text16le@Base 3.1.2
+ sqlite3_result_text@Base 3.1.2
+ sqlite3_result_value@Base 3.1.2
+ sqlite3_result_zeroblob@Base 3.1.2
+ sqlite3_rollback_hook@Base 3.1.2
+ sqlite3_set_authorizer@Base 3.1.2
+ sqlite3_set_auxdata@Base 3.1.2
+ sqlite3_shutdown@Base 3.1.2
+ sqlite3_sleep@Base 3.1.2
+ sqlite3_snprintf@Base 3.1.2
+ sqlite3_soft_heap_limit64@Base 3.1.2
+ sqlite3_soft_heap_limit@Base 3.1.2
+ sqlite3_sourceid@Base 3.1.2
+ sqlite3_sql@Base 3.1.2
+ sqlite3_status@Base 3.1.2
+ sqlite3_step@Base 3.1.2
+ sqlite3_stmt_busy@Base 3.1.2
+ sqlite3_stmt_readonly@Base 3.1.2
+ sqlite3_stmt_status@Base 3.1.2
+ sqlite3_strglob@Base 3.1.2
+ sqlite3_stricmp@Base 3.1.2
+ sqlite3_strnicmp@Base 3.1.2
+ sqlite3_temp_directory@Base 3.1.2
+ sqlite3_test_control@Base 3.1.2
+ sqlite3_thread_cleanup@Base 3.1.2
+ sqlite3_threadsafe@Base 3.1.2
+ sqlite3_total_changes@Base 3.1.2
+ sqlite3_trace@Base 3.1.2
+ sqlite3_transfer_bindings@Base 3.1.2
+ sqlite3_update_hook@Base 3.1.2
+ sqlite3_uri_boolean@Base 3.1.2
+ sqlite3_uri_int64@Base 3.1.2
+ sqlite3_uri_parameter@Base 3.1.2
+ sqlite3_user_data@Base 3.1.2
+ sqlite3_value_blob@Base 3.1.2
+ sqlite3_value_bytes16@Base 3.1.2
+ sqlite3_value_bytes@Base 3.1.2
+ sqlite3_value_double@Base 3.1.2
+ sqlite3_value_int64@Base 3.1.2
+ sqlite3_value_int@Base 3.1.2
+ sqlite3_value_numeric_type@Base 3.1.2
+ sqlite3_value_text16@Base 3.1.2
+ sqlite3_value_text16be@Base 3.1.2
+ sqlite3_value_text16le@Base 3.1.2
+ sqlite3_value_text@Base 3.1.2
+ sqlite3_value_type@Base 3.1.2
+ sqlite3_version@Base 3.1.2
+ sqlite3_vfs_find@Base 3.1.2
+ sqlite3_vfs_register@Base 3.1.2
+ sqlite3_vfs_unregister@Base 3.1.2
+ sqlite3_vmprintf@Base 3.1.2
+ sqlite3_vsnprintf@Base 3.1.2
+ sqlite3_vtab_config@Base 3.1.2
+ sqlite3_vtab_on_conflict@Base 3.1.2
+ sqlite3_wal_autocheckpoint@Base 3.1.2
+ sqlite3_wal_checkpoint@Base 3.1.2
+ sqlite3_wal_checkpoint_v2@Base 3.1.2
+ sqlite3_wal_hook@Base 3.1.2
+ startswith@Base 3.1.2
+ strbuf_add@Base 3.1.2
+ strbuf_add_bytes@Base 3.1.2
+ strbuf_addc@Base 3.1.2
+ strbuf_addf@Base 3.1.2
+ strbuf_addfln@Base 3.1.2
+ strbuf_addln@Base 3.1.2
+ strbuf_addvf@Base 3.1.2
+ strbuf_clear@Base 3.1.2
+ strbuf_destroy@Base 3.1.2
+ strbuf_detach@Base 3.1.2
+ strbuf_endswith@Base 3.1.2
+ strbuf_init@Base 3.1.2
+ strbuf_is_blank@Base 3.1.2
+ strbuf_remove_from_first@Base 3.1.2
+ strbuf_remove_from_last@Base 3.1.2
+ strbuf_replace@Base 3.1.2
+ strbuf_split@Base 3.1.2
+ strbuf_to_s@Base 3.1.2
+ substr@Base 3.1.2
+ trie_add_child@Base 3.1.2
+ trie_children_count@Base 3.1.2
+ trie_create@Base 3.1.2
+ trie_free@Base 3.1.2
+ trie_iterate@Base 3.1.2
+ trie_lookup@Base 3.1.2
+ trimwhitespace@Base 3.1.2
+ utf8_decode_at_byte@Base 3.1.2
+ utf8_decode_at_character@Base 3.1.2
+ utf8_decode_init@Base 3.1.2
+ utf8_decode_next@Base 3.1.2
+ utf8_ends_with@Base 3.1.2
+ utf8_length@Base 3.1.2
+ varnam_config@Base 3.1.2
+ varnam_create_token@Base 3.1.2
+ varnam_debug@Base 3.1.2
+ varnam_delete_word@Base 3.1.2
+ varnam_destroy@Base 3.1.2
+ varnam_detect_lang@Base 3.1.2
+ varnam_enable_logging@Base 3.1.2
+ varnam_export_words@Base 3.1.2
+ varnam_flush_buffer@Base 3.1.2
+ varnam_get_all_tokens@Base 3.1.2
+ varnam_get_info@Base 3.1.2
+ varnam_get_last_error@Base 3.1.2
+ varnam_get_scheme_author@Base 3.1.2
+ varnam_get_scheme_compiled_date@Base 3.1.2
+ varnam_get_scheme_display_name@Base 3.1.2
+ varnam_get_scheme_file@Base 3.1.2
+ varnam_get_scheme_identifier@Base 3.1.2
+ varnam_get_scheme_language_code@Base 3.1.2
+ varnam_get_suggestions_file@Base 3.1.2
+ varnam_import_learnings_from_file@Base 3.1.2
+ varnam_init@Base 3.1.2
+ varnam_init_from_lang@Base 3.1.2
+ varnam_is_known_word@Base 3.1.2
+ varnam_learn@Base 3.1.2
+ varnam_learn_from_file@Base 3.1.2
+ varnam_log@Base 3.1.2
+ varnam_register_renderer@Base 3.1.2
+ varnam_reverse_transliterate@Base 3.1.2
+ varnam_set_scheme_details@Base 3.1.2
+ varnam_set_suggestions_dir@Base 3.1.2
+ varnam_set_symbols_dir@Base 3.1.2
+ varnam_suggestions_dir@Base 3.1.2
+ varnam_symbols_dir@Base 3.1.2
+ varnam_train@Base 3.1.2
+ varnam_transliterate@Base 3.1.2
+ varnam_version@Base 3.1.2
+ varray_clear@Base 3.1.2
+ varray_copy@Base 3.1.2
+ varray_exists@Base 3.1.2
+ varray_free@Base 3.1.2
+ varray_get@Base 3.1.2
+ varray_get_last_item@Base 3.1.2
+ varray_init@Base 3.1.2
+ varray_insert@Base 3.1.2
+ varray_is_empty@Base 3.1.2
+ varray_length@Base 3.1.2
+ varray_pop_last_item@Base 3.1.2
+ varray_push@Base 3.1.2
+ varray_remove_at@Base 3.1.2
+ vpool_add@Base 3.1.2
+ vpool_free@Base 3.1.2
+ vpool_get@Base 3.1.2
+ vpool_init@Base 3.1.2
+ vpool_reset@Base 3.1.2
+ vpool_return@Base 3.1.2
+ vst_add_metadata@Base 3.1.2
+ vst_discard_changes@Base 3.1.2
+ vst_flush_changes@Base 3.1.2
+ vst_get_all_tokens@Base 3.1.2
+ vst_get_metadata@Base 3.1.2
+ vst_get_virama@Base 3.1.2
+ vst_make_prefix_tree@Base 3.1.2
+ vst_persist_token@Base 3.1.2
+ vst_stamp_version@Base 3.1.2
+ vst_start_buffering@Base 3.1.2
+ vst_tokenize@Base 3.1.2
+ vwt_compact_file@Base 3.1.2
+ vwt_delete_word@Base 3.1.2
+ vwt_discard_changes@Base 3.1.2
+ vwt_end_changes@Base 3.1.2
+ vwt_ensure_schema_exists@Base 3.1.2
+ vwt_export_words@Base 3.1.2
+ vwt_full_export@Base 3.1.2
+ vwt_get_best_match@Base 3.1.2
+ vwt_get_suggestions@Base 3.1.2
+ vwt_get_word_id@Base 3.1.2
+ vwt_import_patterns@Base 3.1.2
+ vwt_import_words@Base 3.1.2
+ vwt_optimize_for_huge_transaction@Base 3.1.2
+ vwt_persist_pattern@Base 3.1.2
+ vwt_persist_possibilities@Base 3.1.2
+ vwt_start_changes@Base 3.1.2
+ vwt_tokenize_pattern@Base 3.1.2
+ vwt_turn_off_optimization_for_huge_transaction@Base 3.1.2
+ word_equals@Base 3.1.2
+ xfree@Base 3.1.2
+ xmalloc@Base 3.1.2
+ zwj@Base 3.1.2
+ zwnj@Base 3.1.2

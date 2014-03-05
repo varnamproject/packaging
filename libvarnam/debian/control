@@ -27,6 +27,7 @@ Section: libdevel
 Architecture: any
 Depends: libvarnam (= ${binary:Version}), ${misc:Depends}, libc6-dev
 Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Description: Varnam 3 development files
  Varnam is a cross platform predictive transliterator
  for Indian languages. It provides a set of APIs enabling
@@ -39,7 +40,7 @@ Description: Varnam 3 development files
 Package: varnamc
 Section: text
 Architecture: all
-Depends: libvarnam (= ${binary:Version}), ${misc:Depends}, ruby (>= 1.9.0)
+Depends: libvarnam (= ${binary:Version}), ${misc:Depends}, ruby1.9.3
 Multi-Arch: foreign
 Description: Commandline interface to libvarnam
  Varnam is a cross platform predictive transliterator
