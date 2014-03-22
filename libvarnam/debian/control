@@ -40,7 +40,7 @@ Description: Varnam 3 development files
 Package: varnamc
 Section: text
 Architecture: all
-Depends: libvarnam (= ${binary:Version}), ${misc:Depends}, ruby1.9.3
+Depends: libvarnam (= ${binary:Version}), ${misc:Depends},  ruby (>= 1:1.9.3.1)
 Multi-Arch: foreign
 Description: Commandline interface to libvarnam
  Varnam is a cross platform predictive transliterator

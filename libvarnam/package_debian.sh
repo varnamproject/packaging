@@ -19,7 +19,7 @@ working_dir=`mktemp -d`
 cp $source_tarball $working_dir/libvarnam_$version.orig.tar.gz
 cd $working_dir
 tar -xvf libvarnam_$version.orig.tar.gz && cd libvarnam-$version && cp -rf $started_directory/debian .
-dpkg-buildpackage -us -uc
+dpkg-buildpackage
 echo "Created package in: $working_dir"
 
 echo "Linting the package"
