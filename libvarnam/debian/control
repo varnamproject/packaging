@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Navaneeth K N <navaneethkn@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), cmake
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://www.varnamproject.com
 Vcs-Git: git://gitorious.org/varnamproject/libvarnam.git
 Vcs-Browser: https://gitorious.org/varnamproject/libvarnam/
@@ -15,7 +15,7 @@ Priority: standard
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Description: Varnam 3 shared library
+Description: Varnam is a predictive transliterator for Indian languages
  Varnam is a cross platform predictive transliterator
  for Indian languages. It provides a set of APIs enabling
  other programs to use transliteration, reverse transliteration
@@ -28,7 +28,7 @@ Architecture: any
 Depends: libvarnam (= ${binary:Version}), ${misc:Depends}, libc6-dev
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Description: Varnam 3 development files
+Description: Development files for varnam
  Varnam is a cross platform predictive transliterator
  for Indian languages. It provides a set of APIs enabling
  other programs to use transliteration, reverse transliteration
@@ -40,7 +40,7 @@ Description: Varnam 3 development files
 Package: varnamc
 Section: text
 Architecture: all
-Depends: libvarnam (= ${binary:Version}), ${misc:Depends},  ruby (>= 1:1.9.3.1)
+Depends: libvarnam (>= ${binary:Version}), ${misc:Depends},  ruby (>= 1:1.9.3.1)
 Multi-Arch: foreign
 Description: Commandline interface to libvarnam
  Varnam is a cross platform predictive transliterator
