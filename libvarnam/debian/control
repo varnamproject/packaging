@@ -1,7 +1,7 @@
 Source: libvarnam
 Section: devel
 Priority: optional
-Maintainer: Navaneeth K N <nkn@riseup.net>
+Maintainer: Navaneeth K N <navaneethkn@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), cmake
 Standards-Version: 3.9.4
 Homepage: http://www.varnamproject.com
