@@ -2,17 +2,33 @@ Source: libvarnam
 Section: devel
 Priority: optional
 Maintainer: Navaneeth K N <navaneethkn@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), cmake
+Build-Depends: debhelper (>= 9), cmake
 Standards-Version: 3.9.5
 Homepage: http://www.varnamproject.com
 Vcs-Git: git://gitorious.org/varnamproject/libvarnam.git
 Vcs-Browser: https://gitorious.org/varnamproject/libvarnam/
 
+Package: varnam-symbol-table
+Section: text
+Architecture: all
+Priority: standard
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Symbol files for all supported languages by libvarnam
+ Varnam is a cross platform predictive transliterator
+ for Indian languages. It provides a set of APIs enabling
+ other programs to use transliteration, reverse transliteration
+ and learn. Programs that link with the Varnam library can have
+ Indian language input in their applications.
+ .
+ This package contains symbol files for all the supported languages by
+ libvarnam
+
 Package: libvarnam
 Section: libs
 Architecture: any
 Priority: standard
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: varnam-symbol-table (= ${source:Version}), ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Description: Varnam is a predictive transliterator for Indian languages
